@@ -1,12 +1,12 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SearchFlights from '../src/components/SearchFlights'
-import DashboardPage from '../src/components/Dashboard'
-import LoginPage from '../src/components/Login'
-import RegisterPage from '../src/components/Register'
-import PaymentPage from '../src/components/PaymentPage'
+import SearchFlights from './components/SearchFlights'
+import DashboardPage from './components/Dashboard'
+import LoginPage from './components/Login'
+import RegisterPage from './components/Register'
+import PaymentPage from './components/PaymentPage'
 import Home from './components/Home';
-import { FlightDataProvider } from '../src/components/FlightDataContext';
+import { FlightDataProvider } from './components/FlightDataContext';
 import BookingList from './components/BookingList';
 
 
